@@ -18,5 +18,8 @@ console.log(string.substring(0, 5)) // prints Alvin
 console.log(string.toUpperCase()) // prints ALVIN KAM
 console.log(string.toLowerCase()) // prints alvin kam
 
+// split string into array
+console.log(string.split(' ')) // prints ['Alvin', 'Kam']
+
 // replace (only replaces the first match)
 console.log(string.replace("Kam", "Tam")) // prints Alvin Tam

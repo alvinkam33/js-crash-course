@@ -1,11 +1,11 @@
 // key/value pairs
 const person = {
-  name: "Alvin Kam",
-  interests: ["Coding", "Gaming", "UBC BizTech"],
-  subscribed: false,
-  demographics: {
-    country: "Canada",
-    age: 21,
+  "name": "Alvin Kam",
+  "interests": ["Coding", "Gaming", "UBC BizTech"],
+  "subscribed": false,
+  "demographics": {
+    "country": "Canada",
+    "age": 21
   }
 }
 
