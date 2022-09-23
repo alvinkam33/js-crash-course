@@ -1,7 +1,5 @@
 let numbers = [1, 2, 3, 4, 5]
 let strings = ["a", "b", "c", "d"]
-// JavaScript supports multi-type arrays, but generally this is not recommended!
-let random = [1, "a", 2, "c"]
 
 // access a certain value
 console.log(numbers[1]) // prints 2
@@ -85,6 +83,11 @@ const every = numbers.every((x) => {
   return x >= 6
 })
 console.log(every) // prints false
+
+// concat
+const concat = numbers.concat(strings)
+console.log(concat) // prints [5, 6, 7, 'a', 'b', 'c', 'd']
+// JavaScript supports multitype arrays, but use cases are rare and generally not recommended!
 
 
 
