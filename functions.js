@@ -21,7 +21,7 @@ const add3 = (x, y) => {
 const add4 = (x, y) => x + y
 
 function add5(x, y) {
-  console.log(x, y);
+  console.log(x + y);
 }
 
 console.log(add(1, 2)) // prints 3
